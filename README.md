@@ -1,6 +1,16 @@
 #  DevOps Multi-Cloud Deployment Assignment
 
+# Multi-Cloud DevOps Assignment
+
+Production-grade deployment using:
+- AWS (ECS + ALB)
+- GCP (Cloud Run)
+- Terraform (AWS infra)
+- Vercel (Frontend)
+
 A production-grade multi-cloud architecture demonstrating a **FastAPI** backend and **Next.js** frontend orchestrated across **AWS (ECS Fargate)** and **GCP (Cloud Run)**. Infrastructure is provisioned using **Terraform (IaC)** with secure state management and environment isolation.
+# Multi-Cloud DevOps Assignment
+
 
 ---
 
@@ -8,9 +18,9 @@ A production-grade multi-cloud architecture demonstrating a **FastAPI** backend 
 
 | Component | Provider | URL |
 | :--- | :--- | :--- |
-| **Frontend** | Vercel | [View Live Demo]() |
-| **AWS Backend** | ECS Fargate | [API Endpoint](http://your-alb-url.amazonaws.com) |
-| **GCP Backend** | Cloud Run | [API Endpoint](https://your-cloud-run-url.run.app) |
+| **Frontend** | Vercel | [View Live Demo](https://multi-cloud-frontend-ten.vercel.app) |
+| **AWS Backend** | ECS Fargate | [API Endpoint](http://pgagi-backend-alb-Prod-1227545064.ap-south-1.elb.amazonaws.com) |
+| **GCP Backend** | Cloud Run | [API Endpoint](https://pgagi-backend-gcp-670335862351.asia-south1.run.app) |
 
 > [!IMPORTANT]
 > **Documentation (PDF):** [Link to PDF Document]  
